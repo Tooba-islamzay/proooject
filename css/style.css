@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  }
+  
+  .navbar {
+    background:rgb(3, 48, 56);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  .nav-links a:hover{
+    color: rgb(137, 207, 224);
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(93, 139, 153);
+    color: rgb(221, 216, 216);
+    padding: 60px 40px;
+  }
+  
+  .hero-text h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: black;
+  animation: moveBackAndForth 1s infinite ease-out;
+}
+@keyframes moveBackAndForth {
+    0%{
+        transform: translateX(10px);
+    }
+    50%{
+        transform: translateX(70px);
+    }
+    100%{
+        transform: translateX(90px);
+    }
+
+}
+  .hero-text .btn {
+    display: inline-block;
+    background: #6d6667;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .btn:hover{
+    color: black;
+  }
+  
+  .hero-img img{
+    width: 500px;
+    border-radius: 10px;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background:rgb(3, 48, 56);
+    margin: 5px;
+    padding: 50px;
+  }
+  
+.service-box {
+    background: white;
+    padding: 30px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  .email-list{
+    display: flex;
+    background-color: rgb(22, 94, 104);
+    color: white;
+    margin: 5px;
+    padding: 30px;
+  }
+  .mb-3{
+    width: 95%;
+  }
+  .btn-light{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(19, 19, 18);
+    background-color: rgb(228, 220, 220);
+    border-radius: 10px;
+  }
+  .btn-light:hover{
+    color: darkred;
+  }
+  footer{
+    background:rgb(3, 48, 56);
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
